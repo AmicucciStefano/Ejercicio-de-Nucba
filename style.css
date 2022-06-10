@@ -90,7 +90,65 @@ li a {
 
 .descripcion {
     padding: 3rem 0px;
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    border-top: solid 1px white;
+
     width: 100%;
+    text-align: center;
 }
+
+.border {
+    border-bottom: solid 1px white;
+}
+
+.texto {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    text-align: center;
+}
+
+.icon {
+    font-size: 60px;
+    color: orange;
+}
+
+h3, h2 {
+    color: #0E1428;
+}
+
+.mini-box {
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left:1rem ;
+}
+
+@media(max-width:776px) {
+    .button-learn {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:700px) {
+    .flex {
+        display: block;
+    }
+    .text-holder {
+        width: 100%;
+    }
+    .holder {
+        display: block;
+    }
+    
+    .photo-holder {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    ul {
+        padding-left: 0;
+        margin-left: 10px;
+    }
+}
+
